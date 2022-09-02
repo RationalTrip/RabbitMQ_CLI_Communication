@@ -1,0 +1,17 @@
+{
+  "RabbitMq": {
+    "connection": {
+      "login": "guest",
+      "password": "guest",
+
+      "host": "localhost",
+      "port": "5672",
+      "virtualHost": "CliWithRabbitMqClient"
+    },
+
+    "messaging": {
+      "exchange": "MessageShareConnectionCLI",
+      "modifyRequestQueue": "MessageRequestConnectionCLI"
+    }
+  }
+}
